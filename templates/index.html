@@ -1,1 +1,27 @@
-<!-- Put the HTML template for your page here! -->
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	
+</head>
+<body>
+<h1>burger</h1>
+<p>its the best because its burger</p>
+{% for f in food %}
+	<h2>{{f}}</h2>
+{% endfor %}
+{% if opposite_day == Truev%}
+	<img src="https://www.google.co.il/url?sa=i&source=images&cd=&ved=2ahUKEwjk9rHdt9rjAhUGfFAKHcxjCmIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.colombia.co%2Fen%2Fcolombia-culture%2Fgastronomy%2Fcolombias-favorite-fish-dishes%2F&psig=AOvVaw3kCTlbcjYWfDjxNQPNIsBS&ust=1564500246849088">	
+{% endif %}
+
+
+	
+
+
+</body>
+
+
+
+
+
+</html>
